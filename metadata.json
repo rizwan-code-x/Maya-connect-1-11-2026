@@ -1,0 +1,6 @@
+{
+  "name": "Maya Connect",
+  "description": "A premium Android OS-style digital ecosystem environment and application launcher.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

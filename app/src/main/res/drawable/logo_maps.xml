@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Top red pin dome -->
+    <path
+        android:fillColor="#EA4335"
+        android:pathData="M48,12 C32.5,12 20,24.5 20,40 C20,58 48,84 48,84 C48,84 76,58 76,40 C76,24.5 63.5,12 48,12 Z"/>
+    <!-- Yellow accent curve on left -->
+    <path
+        android:fillColor="#FBBC04"
+        android:pathData="M48,12 C32.5,12 20,24.5 20,40 C20,48.5 24,56.5 30,64 L48,40 Z"/>
+    <!-- Green base on right -->
+    <path
+        android:fillColor="#34A853"
+        android:pathData="M48,84 C48,84 76,58 76,40 C76,35 74.5,30 72,26 L48,60 Z"/>
+    <!-- Blue center circle -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M48,40m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0"/>
+</vector>

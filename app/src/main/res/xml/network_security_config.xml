@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Enforce HTTPS/TLS across all network connections by default; block cleartext HTTP -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Explicit domain enforcement for REXLIFY Ecosystem & Supabase backend -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">rexlify.netlify.app</domain>
+        <domain includeSubdomains="true">cshlocgnefkhglexodmo.supabase.co</domain>
+        <domain includeSubdomains="true">ai.studio</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

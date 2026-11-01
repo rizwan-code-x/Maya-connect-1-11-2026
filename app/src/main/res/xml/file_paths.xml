@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Least-privilege FileProvider paths: only dedicated APK share cache and wallpapers -->
+    <cache-path
+        name="shared_apk"
+        path="shared_apk/" />
+    <files-path
+        name="wallpapers"
+        path="wallpapers/" />
+</paths>
